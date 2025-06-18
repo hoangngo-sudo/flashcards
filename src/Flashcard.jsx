@@ -1,3 +1,6 @@
+import statueOfLiberty from './assets/statue_of_liberty.webp'
+import uscisLogo from './assets/USCIS_Signature.webp'
+
 function Flashcard({ flashcard, isFlipped, onFlip }) {
     const getLayout = () => {
         if (flashcard.layout === 'left') {
@@ -26,7 +29,7 @@ function Flashcard({ flashcard, isFlipped, onFlip }) {
                 </div>
                 <div 
                     className="left-image" 
-                    style={{ backgroundImage: `url(/src/assets/statue_of_liberty.webp)` }}
+                    style={{ backgroundImage: `url(${statueOfLiberty})` }}
                 ></div>
                 <div className="front-footer">
                     <h4>Civics Flash Cards</h4>
@@ -35,7 +38,7 @@ function Flashcard({ flashcard, isFlipped, onFlip }) {
             </div>
             <div className="front-right">
                 <h2 className="question-text">{flashcard.question}</h2>
-                <img className="logo" src="/src/assets/USCIS_Signature.webp" alt="USCIS Logo" />
+                <img className="logo" src={uscisLogo} alt="USCIS Logo" />
             </div>
         </div>
         <div className={`back ${getLayout()}`}>
