@@ -6,6 +6,8 @@ This web app is a **Web app for flashcards that store items in a flashcard forma
 
 Time spent: **6** hours spent in total
 
+[Demo link](https://hoangngo-sudo.github.io/flashcards/)
+
 ## Required Features
 
 The following **required** functionality is completed:
