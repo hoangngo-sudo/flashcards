@@ -1,8 +1,8 @@
-# Web Development Project 1 - *CommunityBoard*
+# Web Development Project 2 - *Flashcards! Part 1*
 
 Submitted by: **Minh Hoang Ngo**
 
-This web app is **a Psalm devotional resources board for our church**
+This web app is a **Web app for flashcards that store items in a flashcard format that allows users to study for the naturalization test.**
 
 Time spent: **6** hours spent in total
 
