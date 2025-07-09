@@ -8,7 +8,7 @@ function App() {
   const [currentCardIndex, setCurrentCardIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
   const [userAnswers, setUserAnswers] = useState('')
-    const [answerStatus, setAnswerStatus] = useState(null)
+  const [answerStatus, setAnswerStatus] = useState(null)
 
 
   const isAtFirstCard = currentCardIndex === 0;
